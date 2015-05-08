@@ -19,8 +19,8 @@ angular.module('starter.directives', [])
       var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
-      icon: 'http://icons.iconarchive.com/icons/mazenl77/I-like-buttons-3a/256/Cute-Ball-Go-icon.png',
-      title: 'Hello World!'
+      icon: '',
+      title: ''
       });
   
         $scope.onCreate({map: map});
